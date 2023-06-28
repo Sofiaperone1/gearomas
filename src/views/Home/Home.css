@@ -21,17 +21,17 @@ margin-bottom: 5%;}
 
 .homeBackg h3  { font-family: 'Caveat', cursive; color: white; font-size: 42px; margin-top: 0px;}
 
-.homeBtn {margin-top: 0px;}
-button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
- 
+
+.homeBackg button {  
   border-color: rgb(255 255 255 / 80%);
   font-family: initial;
   font-size: 15px;
   color: #000000b5;
   background-color: #5c5b5833;
   margin-bottom: 25%;
-  margin-top: 11%;
-}
+  margin-top: 11%;}
+
+
 
 button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{background-color: white;  }
 
