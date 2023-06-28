@@ -1,4 +1,4 @@
-/*
+
 import React,{useEffect} from 'react'
 import "../../views/Home/Home.css"
 import pd1 from "../../Imgs/pd1.jpg"
@@ -10,6 +10,12 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 
 const HomeProds = () => {
+
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  }, [])
+
   return (
     <div className='homeProds'>
         
@@ -34,4 +40,4 @@ const HomeProds = () => {
   )
 }
 
-export default HomeProds */
+export default HomeProds 

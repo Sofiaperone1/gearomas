@@ -1,4 +1,4 @@
-/*import React ,{useEffect}from 'react'
+import React ,{useEffect}from 'react'
 //import InstagramIcon from '@mui/icons-material/Instagram';
 import "../../views/Home/Home.css"
 import Divider from '@mui/material/Divider';
@@ -25,8 +25,8 @@ const FollowUs = () => {
   
     <div className='followUs'>
 
-{/* <InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/> */
-/*
+{/* <InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/> */} 
+
 <h1 data-aos="fade-right" > Encontranos en las redes</h1>
 
 <Divider /> 
@@ -56,4 +56,4 @@ const FollowUs = () => {
   )
 }
 
-export default FollowUs */
+export default FollowUs 
