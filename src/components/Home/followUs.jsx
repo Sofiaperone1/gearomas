@@ -27,11 +27,11 @@ const FollowUs = () => {
 
 {/* <InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/> */} 
 
-<h1 data-aos="fade-right" > Encontranos en las redes</h1>
+<h1 data-aos="fade-right" > Find us in our social networks</h1>
 
 <Divider /> 
 
-<h3><span>Seguinos en Facebook e Instagram </span>para ver nuestras ofertas diarias, nuevos productos y mucho mas!</h3>
+<h3><span>Follow us on Facebook and Instagram </span>to see our daily offers, new products and much more!</h3>
 
 
 

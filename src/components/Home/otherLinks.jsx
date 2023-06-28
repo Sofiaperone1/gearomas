@@ -25,7 +25,7 @@ const OtherLinks = () => {
             <img src={icon2} alt='icon2' />
             <img src={icon3} alt='icon3' />
         </div>
-        <h1>Otros links de interes</h1>
+        <h1>Other links of interest</h1>
         <Divider variant="middle" />
     </div>
     <div className='secondContainer'>
@@ -34,22 +34,23 @@ const OtherLinks = () => {
             <a href="https://veganexpedition.com/blogs/journal-blog/la-magia-que-esta-en-el-aire" >
   
                 <h2 data-aos="fade-right" data-aos-duration="900">
-                    Sahumar
+                Inscense
                 </h2>
                 <h4 data-aos="fade-right" data-aos-duration="900">
-                    ¿Porque sahumamos?
+                    ¿Why do we inscense?
                     <br/>
-                    Significado espiritual
+                    Spiritual meaning
                 </h4>
             </a>
             </div>
             <div>
                 <a href='https://www.bioguia.com/hogar/10-hierbas-para-sahumar-y-quitar-las-malas-vibras_81482340.html'>
                 <h2 data-aos="fade-right" data-aos-duration="900">
-                ¿Con que sahumamos?
+                ¿What do we inscense width?
                 </h2>
                 <h4 data-aos="fade-right" data-aos-duration="900">
-         Aprende a usar los diferentes tipos de hierbas para cumplir diferentes objetivos
+        
+                    Learn how to use the different types of herbs to different goals
                 </h4>
                 </a>
              
@@ -57,10 +58,10 @@ const OtherLinks = () => {
             <div>
                 <a href="https://www.clarin.com/entremujeres/mexico/horoscopo/Limpia-energia-negativa-hogar-hierbas_0_r1A8X99t.html">
                 <h2 data-aos="fade-right" data-aos-duration="900">
-                Cómo sahumar?
+                How do we inscense?
                 </h2>
                 <h4 data-aos="fade-right" data-aos-duration="900">
-              Protecciones que debes tener en cuenta
+              Protections to have in mind
                 </h4>
                 </a>
                 
@@ -71,10 +72,10 @@ const OtherLinks = () => {
             <div>
                 <a href="https://es.wikipedia.org/wiki/Sahumadora">
                 <h2 data-aos="fade-left" data-aos-duration="900">
-                La historia del sahumo
+                Story of the Inscense
                 </h2>
                 <h4 data-aos="fade-left" data-aos-duration="900">
-              Como surgio, quienes lo hacian y en que contexto.
+                The origins , who did it and in what context 
                 </h4>
 
                 </a>
@@ -84,10 +85,10 @@ const OtherLinks = () => {
                 <a href="https://es.wikipedia.org/wiki/Ecolog%C3%ADa_espiritual">
 
                 <h2 data-aos="fade-left" data-aos-duration="900">
-               La ecologia espiritual
+               Spiritual ecology
                 </h2>
                 <h4 data-aos="fade-left" data-aos-duration="900">
-                Una respuesta espiritual a la crisis ecologica.
+                A spiritual response to an ecological crisis.
                 </h4>
                 </a>
 
@@ -97,10 +98,10 @@ const OtherLinks = () => {
                 <a href="https://mymodernmet.com/es/productos-ecologicos/">
                 
                 <h2 data-aos="fade-left" data-aos-duration="900">
-                Seccion ecologicos
+                Ecological section
                 </h2>
                 <h4 data-aos="fade-left" data-aos-duration="900">
-                20 Productos ecológicos con estilo para ayudar a salvar el planeta
+                20 ecological styled products to help saving the planet
                 </h4>
 
                 </a>
