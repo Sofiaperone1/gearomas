@@ -1,11 +1,11 @@
-import * as React from 'react';
+import React from 'react';
 import "./Products.css"
 import FindBar from '../../components/Products/FindBar'
 import CategorysCont from '../../components/Products/CategorysCont'
 import ItemsCont from '../../components/Products/ItemsCont'
 
 
-export default function Products() {
+const Products = () => {
    
   return (
 
@@ -24,3 +24,5 @@ export default function Products() {
 </div>
   );
 }
+
+export default Products;
