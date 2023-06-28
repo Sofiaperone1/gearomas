@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='footer'>
 
-<img src={logoF} calt='logoGea' style={{"marginLeft":"15px"}} />
+<img src={logoF} alt='logoGea' style={{"marginLeft":"15px"}} />
 <div className='navF'>
   <ul>
   <li><Link style={{"color":"black","textDecoration":"none" }} to="/" className="navlinks" > <p>Home</p></Link></li>
