@@ -1,4 +1,4 @@
-/*
+
 import React ,{useEffect}from 'react'
 import icon1 from '../../Imgs/icon1.png'
 import icon2 from '../../Imgs/icon2.png'
@@ -114,8 +114,8 @@ const OtherLinks = () => {
 
 export default OtherLinks;
 
-/* <div>
+/*<div>
     <img src="https://img.icons8.com/external-photo3ideastudio-lineal-photo3ideastudio/70/000000/external-incense-sleep-photo3ideastudio-lineal-photo3ideastudio.png"/>
     <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/70/000000/external-leaf-ecology-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"/>
     <img src="https://img.icons8.com/external-wanicon-solid-wanicon/65/000000/external-peace-world-humanitarian-day-wanicon-solid-wanicon.png"/>
-    </div>   */ 
+    </div>   */
