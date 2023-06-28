@@ -1,9 +1,9 @@
 import React ,{useEffect}from 'react'
 import Banner from "../../components/Home/Banner"
 import MeetUs from "../../components/Home/meetUs"
-import FollowUs from "../../components/Home/followUs"
+/*import FollowUs from "../../components/Home/followUs"
 import OtherLinks from "../../components/Home/otherLinks"
-import HomeProds from '../../components/Home/HomeProds'
+import HomeProds from '../../components/Home/HomeProds' */
 
 import AOS from "aos";
 import 'aos/dist/aos.css'
