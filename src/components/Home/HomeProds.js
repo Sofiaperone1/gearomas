@@ -1,3 +1,4 @@
+/*
 import React,{useEffect} from 'react'
 import "../../views/Home/Home.css"
 import pd1 from "../../Imgs/pd1.jpg"
@@ -33,4 +34,4 @@ const HomeProds = () => {
   )
 }
 
-export default HomeProds
+export default HomeProds */

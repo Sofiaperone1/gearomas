@@ -9,6 +9,9 @@ import AOS from "aos";
 import 'aos/dist/aos.css'
 import "./Home.css"
 
+/* <HomeProds/> 
+   <OtherLinks/>
+   <FollowUs/> */
 const Home = () => {
 
   useEffect(() => {
@@ -24,9 +27,7 @@ const Home = () => {
     </div>
    
    <MeetUs />
-   <HomeProds/> 
-   <OtherLinks/>
-   <FollowUs/>
+  
 
     </div>
   )
