@@ -30,7 +30,7 @@ const ItemDetailCont = () => {
          setItem (docs[0])
           }
         
- useEffect (() => {getProductById()},[]) 
+ useEffect (() => {getProductById()},[id]) 
  
 if (item) {
   return (

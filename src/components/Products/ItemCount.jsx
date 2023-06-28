@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 
 const ItemCount = ({data}) => {
  
-    const {cart,setCart, setCount,count} = useContext (ItemContext)
+    const {cart, setCount} = useContext (ItemContext)
 
     const [counter, setCounter] = useState (0); 
    // const [cart, setCart] = useState([]);
@@ -45,17 +45,7 @@ const ItemCount = ({data}) => {
                             title: 'Producto agregado'
                           })
                         }
-
-     /*  fruits = [
-        {  description: 'orange', Amount: 50},
-        {  description: 'orange', Amount: 50},
-        {  description: 'apple', Amount: 75},
-        {  description: 'kiwi', Amount: 35},
-        {  description: 'watermelon', Amount: 25},];
-       const sumall = fruits.map(item => item.amount).reduce((prev, curr) => prev + curr, 0);
-       console.log(sumall); */
-                           
-                              
+   
   return (
     <div>
     <div className='contador'>
