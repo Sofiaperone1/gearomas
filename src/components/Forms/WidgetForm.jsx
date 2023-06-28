@@ -36,7 +36,7 @@ const WidgetForm = () => {
                     <TextField id="outlined-basic" variant="outlined"  />
                     </div>
                     
-                   <div className='inputCont'>
+                   <div className='inputCont2'>
                    <p>City *</p>
                     <Select
                         labelId="demo-simple-select-label"

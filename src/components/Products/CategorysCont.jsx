@@ -27,7 +27,7 @@ const drawerWidth = 240;
     }}
   >
     
-    <Box className='box' sx={{ overflow: 'auto' }}>
+    <Box id='categories' className='box' sx={{ overflow: 'auto' }}>
     <h2> Buscar por categoria </h2>
       <List>
         {['Todos','Sahumerios', 'Recipientes', 'Sales', 'Velas' ,"Carbones"].map((text) => (

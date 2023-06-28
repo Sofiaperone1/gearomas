@@ -1,5 +1,6 @@
 import React from 'react'
 import './cartWidget.css'
+import { useNavigate } from "react-router-dom"
 import WidgetForm from '../../components/Forms/WidgetForm';
 import Checkbox from '@mui/material/Checkbox';
 import { Divider } from '@mui/material';
@@ -15,6 +16,7 @@ import TextField from '@mui/material/TextField';
 //import Visibility from '@mui/icons-material/Visibility';
 //import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import Swal from 'sweetalert2'
+import Button from '@mui/material/Button'
 
 const Checkout = () => {
 
@@ -27,6 +29,13 @@ const Checkout = () => {
           event.preventDefault();
         };
         
+        const navigate = useNavigate();
+
+        const goBack = () => {
+         navigate(-1);
+       };
+
+
         const showTerms = () => {
           Swal.fire({
             title: 'Terms and Conditions',
@@ -45,7 +54,7 @@ const Checkout = () => {
         <div className='themeBars'>
             <h1>CHECK OUT</h1>
         </div>     
-        
+        <Button style={{backgroundColor:"#c2a2d3", marginTop:"2%", position:"absolute", left:"2%"}} onClick={goBack} variant="contained">GO BACK  </Button>
         <div className='widgetCont'>
         
         <WidgetForm/>
@@ -53,7 +62,7 @@ const Checkout = () => {
         <div className='ticket'>
         
         <h3>ORDER OPTIONS</h3>
-        <Divider />
+        <Divider id='ticketDivider1' />
         <div className='giftOption'>
           <div>
           <Checkbox /> <h5>Giftbox - ( <span>$5</span> )</h5> 
@@ -63,7 +72,7 @@ const Checkout = () => {
         
         
         <h3 className='orderDetails'>ORDER DETAILS</h3>
-        <Divider />
+        <Divider id='ticketDivider2'/>
             <table>
               <thead>
                 <tr>

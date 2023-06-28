@@ -1,18 +1,21 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useParams } from "react-router-dom"
+import { useParams ,useNavigate } from "react-router-dom"
 import ItemCount from '../../components/Products/ItemCount';
 import { collection,getDocs} from "firebase/firestore";
 import db from "../../firebase"
-
+import Button from '@mui/material/Button'
 
 const ItemDetailCont = () => {
   
-
+  const navigate = useNavigate();
 
  const { id } = useParams();
  const [item, setItem ] = useState([]);
  
+ const goBack = () => {
+  navigate(-1);
+};
         
  useEffect(() => {
 
@@ -34,7 +37,13 @@ const ItemDetailCont = () => {
 
 if (item) {
   return (
-    <div  className='itemDetailCont'>
+    <div id='itemDetail'>
+        <div className='themeBars'>
+       <h1>ITEM DETAIL</h1>
+    </div>
+    <Button id="button" onClick={goBack} variant="contained">Continue buying </Button>
+ <div  className='itemDetailCont'>
+    
       <div className='detail-img'>
       <img src={item.img } alt="prod" />
       </div>
@@ -46,6 +55,8 @@ if (item) {
       <h4>+ Add to favorites </h4>
       </div>
     </div>
+    </div>
+   
   ) 
 }
 else { return (
