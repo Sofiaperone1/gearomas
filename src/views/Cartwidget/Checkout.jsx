@@ -19,7 +19,7 @@ import Swal from 'sweetalert2'
 
 const Checkout = () => {
 
-        const {cart,setCart,setCount} =useContext (ItemContext)
+        
         
         const [showPassword, setShowPassword] = React.useState(false);
         
