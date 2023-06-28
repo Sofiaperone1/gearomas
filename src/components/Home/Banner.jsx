@@ -18,7 +18,7 @@ const Banner = () => {
       <h1 data-aos="zoom-in">Tienda energetica</h1>
       <h3 data-aos="zoom-in">Ecologica, Cruelty free, Basura cero </h3>
        <Stack spacing={2} direction="row">
-        <Button className="homeBtn" variant="outlined"  data-aos-delay="400" data-aos="flip-left">Conoce nuestros productos</Button>
+        <Button variant="outlined"  data-aos-delay="400" data-aos="flip-left">Conoce nuestros productos</Button>
        </Stack>
     </div>
     

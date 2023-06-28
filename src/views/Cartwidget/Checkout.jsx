@@ -18,8 +18,7 @@ import Swal from 'sweetalert2'
 
 const Checkout = () => {
 
-        
-        
+
         const [showPassword, setShowPassword] = React.useState(false);
         
         const handleClickShowPassword = () => setShowPassword((show) => !show);
