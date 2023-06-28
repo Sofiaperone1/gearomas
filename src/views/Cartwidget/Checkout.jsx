@@ -1,5 +1,4 @@
-import React, {useContext}from 'react'
-import { ItemContext } from '../../components/CartContext/CartContext'
+import React from 'react'
 import './cartWidget.css'
 import WidgetForm from '../../components/Forms/WidgetForm';
 import Checkbox from '@mui/material/Checkbox';
