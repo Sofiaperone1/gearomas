@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/* THEME BARS  */
+
+.themeBars {background-color: rgba(207, 207, 207, 0.753);height: 80px;align-items: center;
+    justify-content: center; display: flex; width: 100%;
+}
+.themeBars h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: #423f3f;}
+
+label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; color: black; }
+
+
+
+/*ITEMS CONTAINER */
+
+.productsView {display: flex;
+    flex-direction: column;
+    margin-top: 12%;}
+
+.productsCont {display: flex;
+    width: 93%;
+  margin-top: 1%;
+    margin-left: 2.5%;
+  }
+#itemsCont a {width: 20%;
+    margin: 2%;
+    border: 2px solid #8080803d;
+    border-radius: 7px;
+}
+
+#itemsCont {width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    height: 90vh;
+}
+.linkToProd {
+    height: 40vh;
+}
+.itemsCard img {
+    width: 100%;
+    height: 131px;
+}
+
+
+.itemsC_text h3 {
+    margin-bottom: 3%;
+    font-weight: 300;
+    color: #303030e0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.itemsC_text h4 {
+    font-style: oblique;
+    margin-left: 4%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-family:cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkToProd {text-decoration: none;  
+    color: #303030}
+
+    /* CATEGORYS CONT */
+
+
+.categorysCont h2 {font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+   margin-left: 8%;
+margin-top: 0%;
+color: #423f3f}
+
+.MuiListItemText-root.css-tlelie-MuiListItemText-root {margin-left: 5%;}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    margin-top: 23%;
+    position: absolute;
+    z-index: 1;
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-MuiTypography-root{
+     font-family: 'Arima Madurai', cursive;}
+
+
+/* ITEM DETAIL */
+
+.roundBtn {  
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.267);
+    border-width: thin;
+    border-color: transparent;
+    background-color: white;
+  
+    }
+
+.contador {    display: flex;
+    align-items: center;
+    width: 24%;
+}
+
+.contador p {font-size: 18px; margin-left: 13%;
+    margin-right: 15%; }
+.roundBtn:hover {background-color:#9861b596;color: white;}
+.itemDetail {display: flex; margin-top: 14%;justify-content: center; }
+.detailContainer{   
+    margin-top: 5%;
+    margin-left: 5%;
+   width: 45%;
+    font-family: 'Arima Madurai', cursive;
+
+   
+}
+
+.itemDescrip {width: 100%;
+    color: #363636;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 17px;}
+
+
+
+  .addToCart{
+    color: rgb(255 255 255 / 80%) !important;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    background: #9861b596;
+    border: 2px solid;
+    border-color: #9861b51c;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  .addToCart:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #b173d1;
+    transition: all 0.2s ease;
+ }  
+ .detail_desc {width: 45%; }
+ .detail_desc h1 { font-size: 30px;
+    color: #000000cf;
+    margin-top: 0;
+    margin-bottom: 4%;
+    font-family: 'DM Serif Display', serif;}
+
+ .detail_desc h2 {    font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: red;
+        font-size: 26px;
+        margin-top: 0%;
+        margin-bottom: 2%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+ .detail_desc h3 {    font-size: 18px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;}
+
+.detail_desc h4 {
+    font-style: oblique;
+    color: #7a167a;
+    font-family: auto;
+    font-size: 17px;
+    text-decoration: underline
+}
+.addToFavs {display: flex;margin-top: 3%;}
+.addToFavs button {border: transparent; background-color: transparent;margin-left: 3px;}
+.detail-img {    margin-right: 3%;
+    width: 30%;}
+.detail-img img {width: 100%;}
+
+
+/* ITEM DETAIL CONT */
+
+
+.itemDetailCont {display: flex;
+    margin-top: 19%;
+    align-items: center;
+    justify-content: center;}
+
+
+
+/* FIND BAR */
+ /* div#demo-simple-select{ padding: 7%;} */
+
+ css-ece9u5 {
+    min-width: 139px;
+    margin-right:5%
+}
+
+.productFinders {background-color: rgba(255, 255, 255, 0.986);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2%;
+    align-items: center;
+};
+
+.fieldset.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    bottom: 10px;
+    top: 3px;
+}
+
+.MuiBox-root.css-ece9u5 fieldset {
+    bottom: 10px;
+    top: 3px;
+}
+
+.MuiBox-root.css-ece9u5 {
+    min-width: 134px;
+    margin-right: 2%;
+}
+.productFinders #selectInput { height: 33px; margin: 5px;}
+
