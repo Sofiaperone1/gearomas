@@ -21,7 +21,7 @@ window.addEventListener ('scroll', changeBackground);
   return (
 
  <div className={navbar ? 'nav-container active' : 'nav-container'}>
-    <div className={navbar ? 'atentionHours active' : 'atentionHours'}> Nuestro horario de atencion es de 15 a 19 hs</div>
+    <div className={navbar ? 'atentionHours active' : 'atentionHours'}> Our office hours are from 3:00 p.m. to 7:00 p.m.</div>
         <div className= {navbar ? 'navbar active' : 'navbar'} >
 
 <img src={logo1} className= {navbar ? 'logo active' : 'logo'} alt='logoGea' />

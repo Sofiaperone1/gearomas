@@ -15,10 +15,10 @@ const Banner = () => {
     return (
      
     <div className="homeBackg">
-      <h1 data-aos="zoom-in">Tienda energetica</h1>
-      <h3 data-aos="zoom-in">Ecologica, Cruelty free, Basura cero </h3>
+      <h1 data-aos="zoom-in">Energy Store</h1>
+      <h3 data-aos="zoom-in">Ecological, Cruelty free, Zero waste </h3>
        <Stack spacing={2} direction="row">
-        <Button variant="outlined"  data-aos-delay="400" data-aos="flip-left">Conoce nuestros productos</Button>
+        <Button variant="outlined"  data-aos-delay="400" data-aos="flip-left">Watch all our products</Button>
        </Stack>
     </div>
     

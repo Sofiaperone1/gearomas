@@ -30,7 +30,7 @@ const HomeProds = () => {
 
             <div className='pd-left'>
                 <div className='top'>
-                    <button > <Link to="/productos" style={{"textDecoration":"none", "color":"black"}}><p>VISITA NUESTRA TIENDA ONLINE</p></Link></button>
+                    <button > <Link to="/productos" style={{"textDecoration":"none", "color":"black"}}><p>VISIT OUR ONLINE STORE</p></Link></button>
                     <p  data-aos="fade-down-left"  data-aos-duration="700">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos ex commodi veniam, possimus odit quae qui nisi provident explicabo suscipit, iure tenetur dolor impedit? Sequi omnis voluptate quia quidem explicabo.</p>
                 </div>
                 <div className='bottom'><img  data-aos="fade-up-left"  data-aos-duration="700" src={pd4} alt="img4" /></div>

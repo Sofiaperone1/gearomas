@@ -49,9 +49,11 @@ button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-siz
 .meetUs-text {width: 35%; margin-left: 3%; margin-right: 10%;}
 .meetUs-text h2 {font-family: 'DM Serif Display', serif; font-size: 30px; margin-bottom: 1%;}
 .meetUs-text h4 {font-family: 'Arima Madurai', cursive; ; font-size: 17px; font-weight: 200;margin-top: 3%}
-button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root{background-color: rgba(15, 130, 136, 0.76);font-family: 'Arima Madurai', cursive; margin-top: 3%;}
-hr.MuiDivider-root.MuiDivider-middle.css-ft4jij-MuiDivider-root {width: 25%; border-color: rgba(17, 141, 148, 0.76);border-bottom-width: medium; margin-left: 0px;}
+.meetUs-text hr { border-color: rgba(17, 141, 148, 0.76);border-bottom-width: medium; margin-left: 0px;}
 
+.meetUs button {    background-color: rgba(15, 130, 136, 0.76);
+  font-family: 'Arima Madurai', cursive;
+  margin-top: 3%;}
 
 /* FOLLOW US */
 
@@ -60,7 +62,7 @@ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1v1ksuj-MuiSvgIcon-root {color
 .followUs h1 {font-family: 'DM Serif Display', serif; margin-top: 8px;margin-bottom: 10px;font-size: 28px;}
 .followUs h3 {font-family: 'Arima Madurai', cursive; font-weight: 300; margin-top: 1%;}
 .followUs h3 span {color: #b173d1;}
-hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {width: 150px;border-color: #b173d1;border-bottom-width:initial}
+.followUs hr{width: 150px;border-color: #b173d1;border-bottom-width:initial}
 
 /* OTHER LINKS */
 
