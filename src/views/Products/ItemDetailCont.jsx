@@ -13,25 +13,25 @@ const ItemDetailCont = () => {
  const { id } = useParams();
  const [item, setItem ] = useState([]);
  
-       const getProductById = async() => { 
-        const docs =[];
+        
+ useEffect(() => {
+
+  const getProductById = async () => {
+    const docs =[];
         const datos= await getDocs(collection(db, "products"))
        
-       
          datos.forEach((doc) => { 
-
-          if (doc.id === id) {
-
+           if (doc.id === id) {
             docs.push({...doc.data() , id:doc.id, key:doc.id})
-          }
-            
-         }
-         )
+          }})
+          
          setItem (docs[0])
-          }
-        
- useEffect (() => {getProductById()},[]) 
- 
+  };
+
+  getProductById();
+}, [id]);
+
+
 if (item) {
   return (
     <div  className='itemDetailCont'>
