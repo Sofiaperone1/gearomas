@@ -1,0 +1,111 @@
+
+.contactView {margin-top: 12%;    margin-bottom: 22%}
+
+.contactFormBlock {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.contactFormBlock h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 7%;
+}
+
+.sucursalesList div{margin-top: 7%;margin-bottom: 7%;}
+
+.sucursalesList div h2{
+
+  font-family: 'Arima Madurai', cursive;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.sucursalesList div h3{
+
+
+  font-family: 'Arima Madurai', cursive;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+
+#fondoForm{  
+  height: 400px; margin-top: 4%; display: flex; justify-content: space-evenly;}
+.formCardDecoration { width: 37%; margin-top:2% ; font-family: 'Arima Madurai', cursive;}
+.formCard { width: 37%; margin-top: 2%;font-family: 'Arima Madurai', cursive;margin-left: 3%;}
+#fondoForm li { margin-top: 2%;}
+#fondoForm p {margin-top: 4%;    margin-bottom: 1%;}
+#fondoForm h3{    font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 4%;
+  }
+.formCardDecoration  img{ margin-top: 4%; align-self: center;}
+#outlined-basic{ width: 84%}
+
+.suscribeDiv {display: flex; flex-direction: row;margin-bottom: 0%; margin-top: 1% ;}
+
+
+/*
+.fondo {background-image: url(../Imgs/sobreContacto3.jpg);height: 600px; 
+  align-items:center; justify-content: center; display: flex; }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation3.css-3su884-MuiPaper-root 
+  {  background-color: #ffffffdc;}
+
+  form.MuiBox-root.css-1oms8u8 {display: flex; flex-direction: column; 
+                                align-items: center; margin-top: 12px;}
+
+ button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.sendCF.css-1rwt2y5-MuiButtonBase-root-MuiButton-root 
+                                { width: 66%; color: #702532;
+                                  border-color: #702532; } 
+
+span.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.PrivateSwitchBase-root.Mui-checked.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {color: #702532;}
+
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.sendCF.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{background-color: #70253157;}    
+
+label#standard-basic-label {font-family: 'Lora', serif; color: black;}
+label#standard-number-label{font-family: 'Lora', serif; color: black;}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-multiline.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{font-family: 'Lora', serif; color: black;}
+.suscribeCF {font-family:'Lora', serif ;text-align: -webkit-center;}
+
+
+ WIDGET FORM -------- */
+
+.formWidget{
+  
+  font-family: 'Arima Madurai', cursive;
+  padding: 2%;
+}
+.formWidget h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2%;
+  font-size: 21px;
+}
+
+.formWidget p {
+  margin-bottom: 2%;
+}  
+
+.formWidget input { height: 25px;}
+
+.name, .address {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputCont {
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.phone , .message{
+  width: 97%;
+  margin-top: 3%;
+} 
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root, .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
