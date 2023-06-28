@@ -24,6 +24,7 @@ const ItemDetailCont = () => {
 
             docs.push({...doc.data() , id:doc.id, key:doc.id})
           }
+          
             
          }
          )

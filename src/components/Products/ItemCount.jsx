@@ -11,7 +11,6 @@ const ItemCount = ({data}) => {
     const {cart, setCount} = useContext (ItemContext)
 
     const [counter, setCounter] = useState (0); 
-   // const [cart, setCart] = useState([]);
     
     const sumarUno = () => {
         if (counter < data.stock ) {
