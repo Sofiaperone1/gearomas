@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+
+
+
+/* BANNER */
+
+
+
+.homeBackg{background-image: url(../../Imgs/fondoB.jpg); height: 580px;    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+margin-bottom: 5%;}
+
+.homeBackg h1 { font-family: 'Caveat', cursive; color: white; font-size:120px ; margin-bottom: 0px;}
+
+.homeBackg h3  { font-family: 'Caveat', cursive; color: white; font-size: 42px; margin-top: 0px;}
+
+.homeBtn {margin-top: 0px;}
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+ 
+  border-color: rgb(255 255 255 / 80%);
+  font-family: initial;
+  font-size: 15px;
+  color: #000000b5;
+  background-color: #5c5b5833;
+  margin-bottom: 25%;
+  margin-top: 11%;
+}
+
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{background-color: white;  }
+
+/* THEME BAR HOME */
+
+.themeBarHome {
+  background-color:#9861b596; height: 80px;align-items: center;
+    justify-content: center; display: flex; 
+}
+.themeBarHome h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: white;}
+
+/* MEET US */
+
+.meetUs {display: flex; justify-content:center;margin-top: 5%; background-color: rgb(255, 254, 254);margin-bottom: 10%; margin-left: 8%;}
+.meetUs-text {width: 35%; margin-left: 3%; margin-right: 10%;}
+.meetUs-text h2 {font-family: 'DM Serif Display', serif; font-size: 30px; margin-bottom: 1%;}
+.meetUs-text h4 {font-family: 'Arima Madurai', cursive; ; font-size: 17px; font-weight: 200;margin-top: 3%}
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root{background-color: rgba(15, 130, 136, 0.76);font-family: 'Arima Madurai', cursive; margin-top: 3%;}
+hr.MuiDivider-root.MuiDivider-middle.css-ft4jij-MuiDivider-root {width: 25%; border-color: rgba(17, 141, 148, 0.76);border-bottom-width: medium; margin-left: 0px;}
+
+
+/* FOLLOW US */
+
+.followUs {display: flex; flex-direction: column; align-items: center;margin-top: 6%;}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1v1ksuj-MuiSvgIcon-root {color:#b173d1;}
+.followUs h1 {font-family: 'DM Serif Display', serif; margin-top: 8px;margin-bottom: 10px;font-size: 28px;}
+.followUs h3 {font-family: 'Arima Madurai', cursive; font-weight: 300; margin-top: 1%;}
+.followUs h3 span {color: #b173d1;}
+hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {width: 150px;border-color: #b173d1;border-bottom-width:initial}
+
+/* OTHER LINKS */
+
+.otherLinks {display: flex;
+  flex-direction: column;font-family: 'Arima Madurai', cursive;margin-top: 5%; background-color: #9e9e9e11;
+  padding-top: 4%; padding-bottom:6%;margin-bottom: 5%; width: 99%; right: 0px;}
+.otherLinks h4 {font-weight: 300; margin-top: 0px;}
+.otherLinks h2 { margin-bottom: 5px; font-size: 20px;font-family: 'DM Serif Display', serif;}
+.otherLinks h1 {margin-bottom: 5px; margin-top: 7px; font-size: 28px;font-family: 'DM Serif Display', serif;}
+.firstContainer {text-align: -webkit-center; margin-bottom:2%}
+.firstContainer div img {
+  width: 4%;
+}
+.secondContainer {display: flex; justify-content: space-evenly;}
+.firstLineC {width: 20%;}
+.secondLineC{width: 20%;}
+.imgRotativa {width: 28%;}
+.secondContainer a {text-decoration: none;
+  color: black;}
+  .secondContainer a:hover{ color:rgba(17, 141, 148, 0.76)}
+.firstLineC div {margin-bottom: 4%; }
+
+.secondLineC div {margin-bottom: 4%; }
+
+
+/* HOME PRODS */ 
+
+.homeProds {
+  font-family: 'Arima Madurai', cursive;
+  width: 95%;
+  margin-bottom: 8%;
+}
+
+.homeProds h1{
+  margin-left: 5%; font-size: 28px;
+}
+
+.homeProds div {
+
+  height: 70vh;
+  margin-left: 3%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pd-right {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  width: 40%;
+  margin-right: 0;
+}
+
+.up img {
+  width: 46%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+.down img {
+  width: 94%;
+  margin-left: 2%;
+}
+
+.pd-right .up {
+display: flex;
+flex-direction: row;
+height: 50%;
+width: 100%;
+margin-bottom: 0%;
+}
+
+.pd-right .down {
+
+height: 50%;
+width: 100%;
+}
+
+.pd-left {
+ 
+  width: 50%;
+  margin-right: 3%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pd-left div {
+  height: 50%;
+  width: 100%;
+}
+
+.pd-left .top h1 {
+  margin-left: 0;
+}
+
+.pd-left .top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bottom img{ width: 100%; margin-bottom: 8%;}
+.top button {
+  height: 60px;
+  width: 70%;
+  font-size: 22px;
+  font-family: 'DM Serif Display', serif;
+  margin-bottom: 3%;
+  background-color:#9861b596;
+  color: black;
+  border-radius: 5px;
+  border-color: transparent;
+}
