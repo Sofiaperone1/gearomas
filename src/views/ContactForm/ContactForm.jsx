@@ -1,4 +1,4 @@
-import Form from "../../components/Forms/ContactForm.js"
+import Form from "../../components/Forms/ContactForm.jsx"
 import React from "react";
 import "./ContactForm.css"
 //import Maps from "../../components/Maps.js";
@@ -6,7 +6,7 @@ import Divider from '@mui/material/Divider';
 import Sucursales from './Sucursales.js'
 
 const ContactForm  = () => {
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  
+ /* const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  */
   
  
 
