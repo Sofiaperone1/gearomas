@@ -1,4 +1,4 @@
-import React, {useContext, useEffect }from 'react'
+import React, {useContext }from 'react'
 import { ItemContext } from '../../components/CartContext/CartContext'
 import './cartWidget.css'
 import Table from '@mui/material/Table';
@@ -13,25 +13,10 @@ import{NavLink} from "react-router-dom"
 
 
 
-/*function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
-}
-*/
-
 const CartWidget = () => {
 
 
-const {cart,setCart,count ,setCount, sumall} =useContext (ItemContext)
-
-const [showPassword, setShowPassword] = React.useState(false);
-
-const handleClickShowPassword = () => setShowPassword((show) => !show);
-
-const handleMouseDownPassword = (event) => {
-  event.preventDefault();
-};
-
-
+const {cart,setCart,count ,setCount} =useContext (ItemContext)
 
   const deleteItem = (e) => {
       const selectedProdName = e.target.name;

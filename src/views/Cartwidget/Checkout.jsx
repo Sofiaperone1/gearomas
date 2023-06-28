@@ -1,4 +1,4 @@
-import React, {useContext, useEffect }from 'react'
+import React, {useContext}from 'react'
 import { ItemContext } from '../../components/CartContext/CartContext'
 import './cartWidget.css'
 import WidgetForm from '../../components/Forms/WidgetForm';
@@ -19,7 +19,7 @@ import Swal from 'sweetalert2'
 
 const Checkout = () => {
 
-        const {cart,setCart,count ,setCount, sumall} =useContext (ItemContext)
+        const {cart,setCart,setCount} =useContext (ItemContext)
         
         const [showPassword, setShowPassword] = React.useState(false);
         
@@ -41,19 +41,7 @@ const Checkout = () => {
             }
           })
         }
-        
-          const deleteItem = (e) => {
-              const selectedProdName = e.target.name;
-              const deleteditem = cart.filter (e => e.name !== selectedProdName)
-              //const updatedCount = count - selectedProdTotal
-              const sumall = deleteditem.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
-              console.log(sumall)
-              setCount(sumall)
-              setCart(deleteditem)
-              }
-        
-        
-        
+     
         return (
         <div className='checkout'>
         <div className='themeBars'>

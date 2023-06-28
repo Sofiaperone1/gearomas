@@ -1,39 +1,12 @@
-import React , {useState} from 'react'
+import React from 'react'
 import "../../views/ContactForm/ContactForm.css"
 import TextField from '@mui/material/TextField';
-import Checkbox from '@mui/material/Checkbox';
-import Button from '@mui/material/Button';
 import { Divider } from '@mui/material';
-import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 const WidgetForm = () => {
 
-    const changeHandler = () => {
-    } 
-
-    const [form,setForm] = useState({
-        name:"",
-        lastname:"",
-        phone:"",
-        city:"",
-        address:"",
-        message:"",
-        })
-      
-       
-      
-      const [errors, setErrors] = useState({
-        name:"",
-        lastname:"",
-        phone:"",
-        city:"",
-        address:"",
-        message:"",
-      })
-      
 
   return (
 
@@ -90,11 +63,8 @@ const WidgetForm = () => {
                 id="outlined-multiline-static"
                 multiline
                 rows={4}
-
     />
-                    
    </div>
-
 
 </form>
     </div>
