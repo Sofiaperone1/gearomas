@@ -27,7 +27,7 @@ const FindBar = () => {
    <input id="selectInput" type="text" onChange={handleChange} />
 
  
-     <Box sx={{ minWidth: 120 }}>
+     <Box id="sortInput"sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
         <InputLabel className='ordenar_label' id="demo-simple-select-label">Ordenar por</InputLabel>
         <Select

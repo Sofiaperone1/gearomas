@@ -14,8 +14,7 @@
     flex-direction: column;
     align-items: center;
 }
-
-.cartWidget .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.cartWidget.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+#cartWidgetTable{
     width: 66%;
     margin-top: 2%;
     box-shadow:none;
@@ -25,7 +24,7 @@
    display: flex;
    flex-direction: row;
    justify-content: center;
-   margin-top:2%
+   margin-top:5%
 }
 
 .cartWidget table {
@@ -91,6 +90,11 @@
    
 }
 
+#ticketDivider1, #ticketDivider2{
+    border: 1px solid black;
+    width: 33%;
+}
+
 .ticket hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root{
         align-self: flex-start;
 }
@@ -119,6 +123,7 @@
     margin-bottom: 5%;
     font-family: 'Arima Madurai', cursive;
     font-size: 16px;
+    text-align: left;
 }
 .giftOption div {
     display: flex;
@@ -175,6 +180,7 @@
 }
 
 
+
 .checkout table {
     margin-top: 4%;
     border: 1px solid black;
@@ -183,6 +189,9 @@
     width: 76%;
  
 }
+
+
+
 .checkout table thead {
     
     font-size: 19px;

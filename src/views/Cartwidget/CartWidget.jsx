@@ -37,9 +37,9 @@ return (
 </div>     
 
 
-<Button style={{"alignSelf":"flex-start", "marginLeft":"3%", "backgroundColor":"#c2a2d3"}} variant="contained"><NavLink style={{"textDecoration":"none", "color":"white"}}to="/productos">Continue buying </NavLink></Button>
+<Button style={{alignSelf:"flex-start", marginLeft:"3%", backgroundColor:"#c2a2d3", marginTop:"3%"}} variant="contained"><NavLink style={{"textDecoration":"none", "color":"white"}}to="/productos">Continue buying </NavLink></Button>
 
-<TableContainer className="cartWidget " component={Paper}>
+<TableContainer id="cartWidgetTable" component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
@@ -83,7 +83,7 @@ return (
       </Table>
     </TableContainer>
 
-    <Button style={{"marginTop":"0", "width":"30%"}}variant="contained"> <NavLink to="/checkout" style={{textDecoration:"none", color:"white"}}>Proceed To Checkout </NavLink></Button>
+    <Button style={{marginTop:"0", width:"30%", backgroundColor:"rgba(15, 130, 136, 0.76)"}}variant="contained"> <NavLink to="/checkout" style={{textDecoration:"none", color:"white"}}>Proceed To Checkout </NavLink></Button>
 
 </div>
 )

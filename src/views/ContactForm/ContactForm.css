@@ -48,30 +48,7 @@
 .suscribeDiv {display: flex; flex-direction: row;margin-bottom: 0%; margin-top: 1% ;}
 
 
-/*
-.fondo {background-image: url(../Imgs/sobreContacto3.jpg);height: 600px; 
-  align-items:center; justify-content: center; display: flex; }
-  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation3.css-3su884-MuiPaper-root 
-  {  background-color: #ffffffdc;}
-
-  form.MuiBox-root.css-1oms8u8 {display: flex; flex-direction: column; 
-                                align-items: center; margin-top: 12px;}
-
- button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.sendCF.css-1rwt2y5-MuiButtonBase-root-MuiButton-root 
-                                { width: 66%; color: #702532;
-                                  border-color: #702532; } 
-
-span.MuiCheckbox-root.MuiCheckbox-colorPrimary.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.PrivateSwitchBase-root.Mui-checked.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {color: #702532;}
-
-button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.sendCF.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{background-color: #70253157;}    
-
-label#standard-basic-label {font-family: 'Lora', serif; color: black;}
-label#standard-number-label{font-family: 'Lora', serif; color: black;}
-.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-multiline.css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{font-family: 'Lora', serif; color: black;}
-.suscribeCF {font-family:'Lora', serif ;text-align: -webkit-center;}
-
-
- WIDGET FORM -------- */
+ /* -- WIDGET FORM -------- */
 
 .formWidget{
   
@@ -95,7 +72,7 @@ label#standard-number-label{font-family: 'Lora', serif; color: black;}
   flex-direction: row;
 }
 
-.inputCont {
+.inputCont, .inputCont2 {
   width: 50%;
   margin-right: 3%;
   margin-top: 3%;
@@ -106,6 +83,6 @@ label#standard-number-label{font-family: 'Lora', serif; color: black;}
   margin-top: 3%;
 } 
 
-.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root, .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+.inputCont2 div, .phone div, .message div {
   width: 100%;
 }
