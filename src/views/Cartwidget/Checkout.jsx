@@ -1,4 +1,5 @@
-import React from 'react'
+import React ,{useContext}from 'react'
+import { ItemContext } from "../../components/CartContext/CartContext";
 import './cartWidget.css'
 import { useNavigate } from "react-router-dom"
 import WidgetForm from '../../components/Forms/WidgetForm';
@@ -19,7 +20,8 @@ import Swal from 'sweetalert2'
 import Button from '@mui/material/Button'
 
 const Checkout = () => {
-
+      
+        const {cart, count} = useContext(ItemContext)
 
         const [showPassword, setShowPassword] = React.useState(false);
         
@@ -35,6 +37,7 @@ const Checkout = () => {
          navigate(-1);
        };
 
+       let totalTicket = count+30
 
         const showTerms = () => {
           Swal.fire({
@@ -81,13 +84,20 @@ const Checkout = () => {
                 </tr>
               </thead>
               <tbody>
+
+              {cart.map((e) => (
+                     <tr>
+                     <td>{e.name} x {e.cant}u</td>
+                     <td>${e.total}</td>
+                     </tr>))}
+
                 <tr>
                   <td>Shipping</td>
                   <td>$30</td>
                 </tr>
                 <tr>
                   <td>Total</td>
-                  <td>$250</td>
+                  <td>${totalTicket}</td>
                 </tr>
               </tbody>
             </table>

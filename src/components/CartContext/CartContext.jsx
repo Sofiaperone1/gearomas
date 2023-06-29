@@ -19,6 +19,11 @@ export const CartContext = ({children}) => {
       const [cart, setCart] = useState ([]);
       const [count, setCount] = useState([]);
       
+      const [ticket, setTicket] = useState({
+        products:[],
+        total:""
+      })
+      
       const listaSucursales = [
           {
              nombre: 'Sucursal 1',
@@ -125,7 +130,7 @@ const handleChange = (e) => {
 
 return (    
 
-    <ItemContext.Provider value={{listaSucursales,count,setCount, products, setProducts,getProducts,getCategory,handleChange, searchedProduct, getSelectedProducts,cart, setCart}} >
+    <ItemContext.Provider value={{ticket, setTicket, listaSucursales,count,setCount, products, setProducts,getProducts,getCategory,handleChange, searchedProduct, getSelectedProducts,cart, setCart}} >
 
         {children}
     </ItemContext.Provider>

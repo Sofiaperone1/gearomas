@@ -49,7 +49,7 @@ const {cart,setCart,count ,setCount} =useContext (ItemContext)
           </div>
         );
       }
-
+      
 return (
 <div className='cartWidget'>
 <div className='themeBars'>

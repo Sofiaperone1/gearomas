@@ -110,11 +110,12 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
 .contador {    display: flex;
     align-items: center;
     margin-bottom: 5%;
+    width: 50vh;
 }
 
 .contador p {font-size: 18px; margin-left: 13%;
     margin-right: 15%; }
-.roundBtn:hover {background-color:#9861b596;color: white;}
+.roundBtn:hover {background-color:#48a0a4;color: white;}
 .itemDetail {display: flex; margin-top: 14%;justify-content: center; }
 .detailContainer{   
     margin-top: 5%;
@@ -134,6 +135,7 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
 
 
   .addToCart{
+    width: 100%;
     color: rgb(255 255 255 / 80%) !important;
     font-size: 16px;
     font-weight: 600;
@@ -142,14 +144,14 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
     border: 2px solid;
     border-color: #9861b51c;
     position: relative;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-family: 'Open Sans', sans-serif;
-    
+    margin-top: 8%;
+    font-family: 'Open Sans', sans-serif; 
   }
+
+
   .addToCart:hover {
     color: rgba(255, 255, 255, 1) !important;
-    box-shadow: 0 4px 16px #b173d1;
+    box-shadow: 0 4px 16px rgba(15, 130, 136, 0.76);
     transition: all 0.2s ease;
  }  
  .detail_desc {width: 45%; 
@@ -216,6 +218,27 @@ justify-content: center;
 margin-top: 6%;
 
     }    
+
+.goToCart{
+    width: 50vh;
+    margin-bottom: 3%;   
+    color: rgb(255 255 255 / 80%) !important;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    background-color: rgb(194 162 211);
+    border: 2px solid;
+    border-color: #9861b51c;
+    position: relative;
+    margin-top: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.goToCart:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #b173d1;
+    transition: all 0.2s ease;
+}
 /* FIND BAR */
  /* div#demo-simple-select{ padding: 7%;} */
 

@@ -3,7 +3,7 @@ import logo1 from '../../Imgs/logo1.png'
 import './Navbar.css'
 import { useState } from 'react';
 import {Link } from 'react-router-dom';
-//import LocalMallIcon from '@mui/icons-material/LocalMall';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 
@@ -31,7 +31,7 @@ window.addEventListener ('scroll', changeBackground);
   <li><Link style={{"textDecoration":"none"}} to="/" className="navlinks" >Home</Link></li>
   <li><Link  style={{"textDecoration":"none"}} to="/productos" className="navlinks" >Shop</Link></li>
   <li><Link  style={{"textDecoration":"none"}} to="/contact" className="navlinks" >Contact</Link></li>
-  <li><Link  style={{"textDecoration":"none"}} to="/cartWidget" className="navlinks" >carrito</Link></li>              
+  <li><Link  style={{"textDecoration":"none"}} to="/cartWidget" className="navlinks" ><ShoppingCartIcon /></Link></li>              
 </ul>
 
  </div>

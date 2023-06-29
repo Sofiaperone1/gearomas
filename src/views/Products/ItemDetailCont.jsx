@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import ItemCount from '../../components/Products/ItemCount';
 import { collection, getDocs } from 'firebase/firestore';
 import db from '../../firebase';
@@ -67,13 +67,14 @@ const ItemDetailCont = () => {
             <h2>${item.price}</h2>
             <h3>{item.description}</h3>
             <ItemCount data={item} />
+            <button className='goToCart'><Link style={{textDecoration:"none", color:"white"}} to="/cartWidget">GO TO CART</Link></button>
             <h4>+ Add to favorites</h4>
           </div>
         </div>
       </div>
     );
   } else {
-    return <div className="itemDetailCont">No se encuentra este producto</div>;
+    return <div className="itemDetailCont">Product not available</div>;
   }
 };
 
