@@ -3,8 +3,8 @@
 
 .contactFormBlock {
   display: flex;
-  justify-content: space-around;
-  margin-top: 7%;
+  margin-top: 6%;
+  justify-content: center;
 }
 .contactFormBlock h1 {
   font-family: 'Open Sans', sans-serif;
@@ -30,11 +30,17 @@
   font-weight: 200;
 }
 
+#submitBtnC {
+  width: 59%;
+  background-color: rgba(15, 130, 136, 0.76);
+  margin-top: 2%;
+}
 
 #fondoForm{  
   height: 400px; margin-top: 4%; display: flex; justify-content: space-evenly;}
 .formCardDecoration { width: 37%; margin-top:2% ; font-family: 'Arima Madurai', cursive;}
 .formCard { width: 37%; margin-top: 2%;font-family: 'Arima Madurai', cursive;margin-left: 3%;}
+.formCard form div {    width: 100%;}
 #fondoForm li { margin-top: 2%;}
 #fondoForm p {margin-top: 4%;    margin-bottom: 1%;}
 #fondoForm h3{    font-family: 'Open Sans', sans-serif;
@@ -45,7 +51,8 @@
 .formCardDecoration  img{ margin-top: 4%; align-self: center;}
 #outlined-basic{ width: 84%}
 
-.suscribeDiv {display: flex; flex-direction: row;margin-bottom: 0%; margin-top: 1% ;}
+.suscribeDiv {display: flex; flex-direction: row;margin-bottom: 0%; margin-top: 1% ;
+  justify-content: center; align-items: flex-end; }
 
 
  /* -- WIDGET FORM -------- */
@@ -85,4 +92,17 @@
 
 .inputCont2 div, .phone div, .message div {
   width: 100%;
+}
+
+/* MAPS     */
+
+.map-wrap {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 77px);
+}
+
+.map{
+  width: 96vh;
+  margin-left: 9%;
 }

@@ -30,7 +30,7 @@ const ItemCount = ({data}) => {
                           const sumall = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
                           console.log(sumall)
                           setCount(sumall)
-        
+
                           const Toast = Swal.mixin({
                             toast: true,
                             position: 'bottom-end',
@@ -59,7 +59,7 @@ const ItemCount = ({data}) => {
     </button>
   
     </div>
- <button className="addToCart" onClick={addToCart}>AGREGAR AL CARRITO</button>
+ <button className="addToCart" onClick={addToCart}>ADD TO CART</button>
    </div>
   )
 }

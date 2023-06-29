@@ -10,7 +10,7 @@ import fu3 from '../../Imgs/fu3.1.png';
 import fu4 from '../../Imgs/fu4.1.png';
 import AOS from "aos";
 import 'aos/dist/aos.css'
-
+import InstagramIcon from '@mui/icons-material/Instagram';
 //reemplazar los import por algo mas funcional
 //AGREGAR TARJETAS CON ANIMACION
 
@@ -23,15 +23,15 @@ const FollowUs = () => {
 
   return (
   
-    <div className='followUs'>
+  <div className='followUs'>
 
-{/* <InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/> */} 
+    <InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/> 
 
-<h1 data-aos="fade-right" > Find us in our social networks</h1>
+    <h1 data-aos="fade-right" > Find us in our social networks</h1>
 
-<Divider /> 
+    <Divider /> 
 
-<h3><span>Follow us on Facebook and Instagram </span>to see our daily offers, new products and much more!</h3>
+    <h3><span>Follow us on Facebook and Instagram </span>to see our daily offers, new products and much more!</h3>
 
 
 

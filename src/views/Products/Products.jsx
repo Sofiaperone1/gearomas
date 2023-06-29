@@ -8,6 +8,8 @@ import ItemsCont from '../../components/Products/ItemsCont'
 
 const Products = () => {
    
+
+
   return (
 
   <div className="productsView">    
@@ -20,6 +22,7 @@ const Products = () => {
   <div className='productsCont'>
   <CategorysCont/>
   <ItemsCont/>
+  
  </div>   
 
 </div>

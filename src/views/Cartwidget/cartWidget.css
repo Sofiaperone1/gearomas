@@ -84,6 +84,10 @@
     margin-top: 12%;
 }
 
+.emptyCard {
+    margin-top: 3%;
+}
+
 .ticket {
     border: 1px solid #b173d1;
     padding: 2%;
