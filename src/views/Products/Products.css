@@ -16,6 +16,10 @@ label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; colo
 
 /*ITEMS CONTAINER */
 
+.loader {
+    margin-top: 6%;
+}
+
 .productsView {display: flex;
     flex-direction: column;
     margin-top: 12%;}
@@ -79,11 +83,12 @@ color: #423f3f}
 
 .MuiListItemText-root.css-tlelie-MuiListItemText-root {margin-left: 5%;}
 
-.categorysCont .css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+#drawer .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
     margin-top: 23%;
     position: absolute;
     z-index: 1;
 }
+
 
 span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-MuiTypography-root{
      font-family: 'Arima Madurai', cursive;}
@@ -197,13 +202,20 @@ margin-left: 3%;}
     margin-top: 8%;  
     justify-content: center;}
 
-    #itemDetail #button {
+#itemDetail #button {
         left: 3%;
         margin-top: 3%;
         position: absolute;
         background-color:#c2a2d3
     }
 
+.detailLoader {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 6%;
+
+    }    
 /* FIND BAR */
  /* div#demo-simple-select{ padding: 7%;} */
 
@@ -225,9 +237,11 @@ margin-left: 3%;}
     top: 3px;
 }
 
-.MuiBox-root.css-ece9u5 fieldset {
-    bottom: 10px;
-    top: 3px;
+#sortInput fieldset {
+   
+    bottom: 9px;
+    top: 5px;
+
 }
 
 #sortInput{

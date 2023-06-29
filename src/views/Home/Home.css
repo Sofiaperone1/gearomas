@@ -172,6 +172,10 @@ width: 100%;
   justify-content: flex-start;
 }
 
+.pd-left .top p {
+  text-align:left ;
+}
+
 .bottom img{ width: 100%; margin-bottom: 8%;}
 .top button {
   height: 60px;
