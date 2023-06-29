@@ -10,8 +10,6 @@ import { ItemContext } from '../CartContext/CartContext';
 const CategorysCont = () => {
 
 
-
-
 const {getCategory} = useContext(ItemContext)
 
 const drawerWidth = 240;
@@ -23,7 +21,7 @@ const drawerWidth = 240;
     sx={{
       width: drawerWidth,
       flexShrink: 0,
-      [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
+      [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' , marginTop:"24%" , position:"absolute", zIndex:"1"},
     }}
   >
     

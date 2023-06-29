@@ -21,7 +21,6 @@ const ItemsCont = () => {
   }, [products]);
 
 
-
 let searchedProducts = products;
 
 if (!handleChange) { searchedProducts = products} 
@@ -54,7 +53,7 @@ else { searchedProducts = products.filter((dato) =>
   {loading ? (
     <div className="loader"><Loader/></div>
   ) : (
-    searchedProducts.map((product) => (
+    searchedProducts.map((product) => ( // cambiar por currentCards cuando agregue mas productos
       <Link className="linkToProd" key={product.id} to={`/detail/${product.id}`} onClick={getProductById}>
         <Item className="itemCard" key={product.id} data={product}  />
       </Link>
