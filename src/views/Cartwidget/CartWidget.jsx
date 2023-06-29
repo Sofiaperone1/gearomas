@@ -10,7 +10,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button'
 import{NavLink} from "react-router-dom"
-
+import emptyCart3 from "../../Imgs/emptyCard3.png"
 
 
 const CartWidget = () => {
@@ -28,7 +28,27 @@ const {cart,setCart,count ,setCount} =useContext (ItemContext)
       setCart(deleteditem)
       }
 
-
+      if (cart.length === 0) {
+        return (
+          <div className='cartWidget'>
+            <div className='themeBars'>
+              <h1>SHOP CART</h1>
+            </div>
+            <Button
+              style={{ alignSelf: 'flex-start', marginLeft: '3%', backgroundColor: '#c2a2d3', marginTop: '3%' }}
+              variant='contained'
+            >
+              <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/productos'>
+                Continue buying
+              </NavLink>
+            </Button>
+            <div className='emptyCard'>
+              <img src={emptyCart3} alt="emptyCard" />
+              <p>You cart is empty</p>
+            </div>
+          </div>
+        );
+      }
 
 return (
 <div className='cartWidget'>
@@ -38,6 +58,7 @@ return (
 
 
 <Button style={{alignSelf:"flex-start", marginLeft:"3%", backgroundColor:"#c2a2d3", marginTop:"3%"}} variant="contained"><NavLink style={{"textDecoration":"none", "color":"white"}}to="/productos">Continue buying </NavLink></Button>
+
 
 <TableContainer id="cartWidgetTable" component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
