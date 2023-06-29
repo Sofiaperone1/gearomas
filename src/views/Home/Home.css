@@ -183,8 +183,11 @@ width: 100%;
   font-size: 22px;
   font-family: 'DM Serif Display', serif;
   margin-bottom: 3%;
-  background-color:#9861b596;
+  background-color: #9861b596;
   color: black;
   border-radius: 5px;
+  display: flex;
   border-color: transparent;
+  justify-content: center;
+  align-items: center;
 }
