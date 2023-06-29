@@ -46,7 +46,7 @@ const Form = () => {
         <Checkbox {...label} />
       </div>
     
-        <Button variant="contained">Submit</Button>
+        <Button id="submitBtnC" variant="contained">Submit</Button> 
         </form>
         </div>
             

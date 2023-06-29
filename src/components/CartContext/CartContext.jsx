@@ -16,13 +16,9 @@ export const CartContext = ({children}) => {
 
        const [products, setProducts] = useState ([]);
        const [searchedProduct, setSearchedProduct] = useState ("");
-      const [cart, setCart] = useState ([]);
-      const [count, setCount] = useState([]);
+       const [cart, setCart] = useState ([]);
+       const [count, setCount] = useState([]);
       
-      const [ticket, setTicket] = useState({
-        products:[],
-        total:""
-      })
       
       const listaSucursales = [
           {
@@ -51,10 +47,8 @@ export const CartContext = ({children}) => {
        const getProducts = async() => { 
 
        const datos= await getDocs(collection(db, "products"))
-       // console.log (datos.docs[0].data())       ----------> para traer uno particular
         let docs= []
         datos.forEach((doc) => { 
-         //   console.log (doc.data())
             docs.push({...doc.data() , id:doc.id, key:doc.id})
             
         }
@@ -130,7 +124,7 @@ const handleChange = (e) => {
 
 return (    
 
-    <ItemContext.Provider value={{ticket, setTicket, listaSucursales,count,setCount, products, setProducts,getProducts,getCategory,handleChange, searchedProduct, getSelectedProducts,cart, setCart}} >
+    <ItemContext.Provider value={{listaSucursales,count,setCount, products, setProducts,getProducts,getCategory,handleChange, searchedProduct, getSelectedProducts,cart, setCart}} >
 
         {children}
     </ItemContext.Provider>

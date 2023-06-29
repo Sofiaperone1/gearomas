@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 
 const ItemCount = ({data}) => {
  
-    const {cart, setCount, ticket, setTicket} = useContext (ItemContext)
+    const {cart, setCount} = useContext (ItemContext)
 
     const [counter, setCounter] = useState (0); 
     
