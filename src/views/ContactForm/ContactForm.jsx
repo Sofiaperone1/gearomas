@@ -3,7 +3,7 @@ import React from "react";
 import "./ContactForm.css"
 import Divider from '@mui/material/Divider';
 import Sucursales from './Sucursales.js'
-import Map from "../../components/map.jsx"
+import Maps from "../../components/map.jsx"
 
 const ContactForm  = () => {
  /* const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  */
@@ -25,9 +25,9 @@ const ContactForm  = () => {
     <Sucursales/>
     </div>
     </div>
-    <div className="mapContainer">
-     <Map/> 
-    </div>
+
+     <Maps/> 
+   
     
     </div>
             <Form/>

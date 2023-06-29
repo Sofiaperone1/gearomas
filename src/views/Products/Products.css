@@ -42,6 +42,39 @@ label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; colo
   
     height: 90vh;
 }
+
+
+.btnPaginado {
+    font-size: 10px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.paginado {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btnPaginado:hover {
+    background-color:rgba(124, 121, 121, 0.753);
+    box-shadow: 0px 15px 20px rgba(141, 173, 161, 0.4);
+    color: #fff;
+    transform: translateY(5px);
+}
+
+
 .linkToProd {
     height: 40vh;
 }
