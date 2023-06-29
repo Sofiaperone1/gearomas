@@ -35,7 +35,7 @@ else { searchedProducts = products.filter((dato) =>
  const startIndex = (currentPage - 1) * pageSize;
  const endIndex = startIndex + pageSize;
 
- const currentCards = searchedProducts.slice(startIndex, endIndex);
+ //const currentCards = searchedProducts.slice(startIndex, endIndex);
 
  function handlePageChange(newPage) {
    setCurrentPage(newPage);
