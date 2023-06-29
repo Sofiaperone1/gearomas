@@ -32,8 +32,9 @@ else { searchedProducts = products.filter((dato) =>
   
  const pageSize = 8;
    
- const startIndex = (currentPage - 1) * pageSize;
- const endIndex = startIndex + pageSize;
+ //const startIndex = (currentPage - 1) * pageSize;
+
+ //const endIndex = startIndex + pageSize;
 
  //const currentCards = searchedProducts.slice(startIndex, endIndex);
 
